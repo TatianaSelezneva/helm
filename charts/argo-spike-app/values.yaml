@@ -1,0 +1,13 @@
+# Number of replica pods to run.
+replicas: 1
+# Which architecture to run your pods on. "amd64", "arm64", or null meaning either is ok.
+architecture: ~
+# The image to deploy.
+# Included here so that Argo knows the parameter exists - but this is not a meaningful default value; user needs to specify it.
+image: ""
+# Number of CPU cores to request per pod. Use e.g. "500m" for half a core.
+cpu: "1"
+# Amount of memory to request per pod.
+memory: "1024Mi"
+# Port your app container listens on
+port: 80
