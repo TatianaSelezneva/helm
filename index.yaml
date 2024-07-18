@@ -1,5 +1,13 @@
 apiVersion: v1
 entries:
+  argo-helm-spike:
+  - apiVersion: v2
+    created: "2024-07-18T14:09:25.853010445Z"
+    digest: 4685145150e7979424879e95425b171acb7589abe75fd38f93917e00704cf95a
+    name: argo-helm-spike
+    urls:
+    - https://github.com/TatianaSelezneva/helm/releases/download/argo-helm-spike-0.0.0/argo-helm-spike-0.0.0.tgz
+    version: 0.0.0
   test-app:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -11,4 +19,4 @@ entries:
     urls:
     - https://github.com/TatianaSelezneva/helm/releases/download/test-app-0.1.0/test-app-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-15T08:13:02.228068775Z"
+generated: "2024-07-18T14:09:25.85303479Z"
